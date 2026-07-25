@@ -1,0 +1,21 @@
+branch_id,branch_name,city,state,ifsc_code,branch_type,opened_date
+BR001,Phusro Branch,Phusro,Haryana,Bank0000001,Metro,2003-08-15
+BR002,Imphal Branch,Imphal,Andhra Pradesh,Bank0000002,Semi-Urban,2017-07-29
+BR003,Thiruvananthapuram Branch,Thiruvananthapuram,Telangana,Bank0000003,Semi-Urban,2006-07-03
+BR004,Hosur Branch,Hosur,Tripura,Bank0000004,Semi-Urban,1998-04-26
+BR005,Anand Branch,Anand,Arunachal Pradesh,Bank0000005,Semi-Urban,2012-08-12
+BR006,Srinagar Branch,Srinagar,Nagaland,Bank0000006,Semi-Urban,2025-05-16
+BR007,Agra Branch,Agra,Himachal Pradesh,Bank0000007,Urban,2014-10-31
+BR008,Madanapalle Branch,Madanapalle,Jharkhand,Bank0000008,Rural,2017-08-28
+BR009,Vadodara Branch,Vadodara,Karnataka,Bank0000009,Metro,2000-11-20
+BR010,Bharatpur Branch,Bharatpur,Kerala,Bank0000010,Semi-Urban,2023-09-18
+BR011,Erode Branch,Erode,Mizoram,Bank0000011,Semi-Urban,2021-05-14
+BR012,Coimbatore Branch,Coimbatore,Maharashtra,Bank0000012,Semi-Urban,2006-08-28
+BR013,Saharanpur Branch,Saharanpur,Chhattisgarh,Bank0000013,Semi-Urban,2020-08-28
+BR014,Malda Branch,Malda,Chhattisgarh,Bank0000014,Semi-Urban,2022-08-13
+BR015,Meerut Branch,Meerut,Arunachal Pradesh,Bank0000015,Semi-Urban,2020-10-05
+BR016,Bikaner Branch,Bikaner,Uttar Pradesh,Bank0000016,Semi-Urban,2007-06-07
+BR017,Haridwar Branch,Haridwar,Sikkim,Bank0000017,Semi-Urban,2002-03-04
+BR018,Uluberia Branch,Uluberia,Tripura,Bank0000018,Rural,1998-05-14
+BR019,Thane Branch,Thane,Nagaland,Bank0000019,Semi-Urban,2011-06-27
+BR020,Kalyan-Dombivli Branch,Kalyan-Dombivli,Manipur,Bank0000020,Semi-Urban,1997-11-27

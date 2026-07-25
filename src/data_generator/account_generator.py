@@ -5,8 +5,6 @@ This module generates realistic banking account data
 for the Banking ETL Pipeline project.
 """
 import random
-# import string
-# from pathlib import Path
 import pandas as pd
 from faker import Faker
 
