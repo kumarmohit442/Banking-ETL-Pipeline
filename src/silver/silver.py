@@ -70,6 +70,9 @@ def standardize_text(df: pd.DataFrame
     if "transaction_mode" in df.columns:
         df["transaction_mode"] = df["transaction_mode"].str.upper()
 
+    if "ifsc_code" in df.columns:
+        df["ifsc_code"] = df["ifsc_code"].str.upper()
+
     return df
 
 
@@ -107,7 +110,7 @@ Transactions:
 - Transaction date validation
 """
     if dataset_name == "customers":
-
+        print("Initial:", len(df))
         # valid customer_id,first_name,last_name
         df = df.dropna(
             subset=[
@@ -116,6 +119,7 @@ Transactions:
                 "last_name"
             ]
         )
+        print("After mandatory:", len(df))
 
         # Valid Email
         email_pattern = r"^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$"
@@ -125,6 +129,7 @@ Transactions:
                 na=False
             )
         ]
+        print("After email:", len(df))
 
         # Valid Phone Number (10 digits)
         df["phone_number"] = df["phone_number"].astype(str)
@@ -137,6 +142,7 @@ Transactions:
                 na=False
             )
         ]
+        print("After phone:", len(df))
 
         # Valid PAN Number
         pan_pattern = r"^[A-Z]{5}[0-9]{4}[A-Z]$"
@@ -146,10 +152,11 @@ Transactions:
                 na=False
             )
         ]
+        print("After PAN:", len(df))
 
         # Valid Aadhaar Number (12 digits)
-        aadhaar_pattern = r"^\d{12}$"
         df["aadhaar_number"] = df["aadhaar_number"].astype(str)
+        aadhaar_pattern = r"^X{4}-X{4}-\d{4}$"
 
         df = df[
             df["aadhaar_number"].str.match(
@@ -157,6 +164,7 @@ Transactions:
                 na=False
             )
         ]
+        print("After aadhaar:", len(df))
 
         # Date of birth should not be in the future
         df["date_of_birth"] = pd.to_datetime(
@@ -167,11 +175,13 @@ Transactions:
         df = df[
             df["date_of_birth"] <= pd.Timestamp.today()
         ]
+        print("After DOB:", len(df))
 
         # valid gender
         valid_gender = ["Male", "Female", "Other"]
 
         df = df[df["gender"].isin(valid_gender)]
+        print("After gender:", len(df))
 
         return df
 
@@ -231,6 +241,7 @@ Transactions:
                 "branch_name"
             ]
         )
+        print("After mandatory:", len(df))
 
         # Valid IFSC
         ifsc_pattern = r"^[A-Z]{4}0[A-Z0-9]{6}$"
@@ -241,6 +252,7 @@ Transactions:
                 na=False
             )
         ]
+        print("After IFSC:", len(df))
 
         # Opened date should not be in the future
         df["opened_date"] = pd.to_datetime(
@@ -248,9 +260,11 @@ Transactions:
             errors="coerce"
         )
 
+        df["opened_date"] = pd.to_datetime(df["opened_date"], errors="coerce")
         df = df[
             df["opened_date"] <= pd.Timestamp.today()
         ]
+        print("After date:", len(df))
 
         return df
     elif dataset_name == "transactions":
