@@ -1,0 +1,21 @@
+branch_id,branch_name,city,state,total_accounts,total_balance,total_transactions,total_credit_amount,total_debit_amount
+BR001,Phusro Branch,Phusro,Haryana,62,97786930.55,1930,19625142.4,34475771.8
+BR002,Imphal Branch,Imphal,Andhra Pradesh,71,118354579.89,2105,20713387.5,36063150.61
+BR003,Thiruvananthapuram Branch,Thiruvananthapuram,Telangana,61,91276565.95,1875,18878303.99,32815499.65
+BR004,Hosur Branch,Hosur,Tripura,57,74674740.08,1710,16695857.16,30346589.67
+BR005,Anand Branch,Anand,Arunachal Pradesh,60,84650591.34,1750,17991526.77,30708424.37
+BR006,Srinagar Branch,Srinagar,Nagaland,78,91976214.32,2200,24061633.68,36817247.14
+BR007,Agra Branch,Agra,Himachal Pradesh,68,87835692.03,2020,21178217.79,33629962.89
+BR008,Madanapalle Branch,Madanapalle,Jharkhand,79,111954286.53999999,2160,23057327.2,36777442.01
+BR009,Vadodara Branch,Vadodara,Karnataka,71,83184782.52,2020,20050546.98,35529363.61
+BR010,Bharatpur Branch,Bharatpur,Kerala,63,86860410.17,1685,17751964.37,28539888.92
+BR011,Erode Branch,Erode,Mizoram,75,88116966.76,2035,21781689.84,34413312.06
+BR012,Coimbatore Branch,Coimbatore,Maharashtra,54,66618627.71,1520,16214975.17,24926710.98
+BR013,Saharanpur Branch,Saharanpur,Chhattisgarh,79,101388840.36,2330,25625005.12,38779781.81
+BR014,Malda Branch,Malda,Chhattisgarh,66,81554697.51,1965,20354781.87,33383564.54
+BR015,Meerut Branch,Meerut,Arunachal Pradesh,72,96730872.28,2135,18689748.67,37397611.07
+BR016,Bikaner Branch,Bikaner,Uttar Pradesh,73,91313052.77,1980,21209460.53,33493612.22
+BR017,Haridwar Branch,Haridwar,Sikkim,65,80622895.39,1970,19338349.46,36017166.62
+BR018,Uluberia Branch,Uluberia,Tripura,71,82574445.97,2360,24210952.01,41236109.87
+BR019,Thane Branch,Thane,Nagaland,82,107249835.31,2455,25920858.57,41127075.66
+BR020,Kalyan-Dombivli Branch,Kalyan-Dombivli,Manipur,69,93716392.6,1910,20248656.61,32719055.8
