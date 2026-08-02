@@ -1,21 +1,21 @@
 branch_id,branch_name,city,state,ifsc_code,branch_type,opened_date,ingestion_timestamp,source_file
-BR001,Phusro Branch,Phusro,Haryana,BANK0000001,Metro,2003-08-15,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR002,Imphal Branch,Imphal,Andhra Pradesh,BANK0000002,Semi-Urban,2017-07-29,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR003,Thiruvananthapuram Branch,Thiruvananthapuram,Telangana,BANK0000003,Semi-Urban,2006-07-03,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR004,Hosur Branch,Hosur,Tripura,BANK0000004,Semi-Urban,1998-04-26,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR005,Anand Branch,Anand,Arunachal Pradesh,BANK0000005,Semi-Urban,2012-08-12,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR006,Srinagar Branch,Srinagar,Nagaland,BANK0000006,Semi-Urban,2025-05-16,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR007,Agra Branch,Agra,Himachal Pradesh,BANK0000007,Urban,2014-10-31,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR008,Madanapalle Branch,Madanapalle,Jharkhand,BANK0000008,Rural,2017-08-28,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR009,Vadodara Branch,Vadodara,Karnataka,BANK0000009,Metro,2000-11-20,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR010,Bharatpur Branch,Bharatpur,Kerala,BANK0000010,Semi-Urban,2023-09-18,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR011,Erode Branch,Erode,Mizoram,BANK0000011,Semi-Urban,2021-05-14,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR012,Coimbatore Branch,Coimbatore,Maharashtra,BANK0000012,Semi-Urban,2006-08-28,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR013,Saharanpur Branch,Saharanpur,Chhattisgarh,BANK0000013,Semi-Urban,2020-08-28,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR014,Malda Branch,Malda,Chhattisgarh,BANK0000014,Semi-Urban,2022-08-13,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR015,Meerut Branch,Meerut,Arunachal Pradesh,BANK0000015,Semi-Urban,2020-10-05,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR016,Bikaner Branch,Bikaner,Uttar Pradesh,BANK0000016,Semi-Urban,2007-06-07,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR017,Haridwar Branch,Haridwar,Sikkim,BANK0000017,Semi-Urban,2002-03-04,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR018,Uluberia Branch,Uluberia,Tripura,BANK0000018,Rural,1998-05-14,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR019,Thane Branch,Thane,Nagaland,BANK0000019,Semi-Urban,2011-06-27,2026-07-30 19:15:47.389993+00:00,branches.csv
-BR020,Kalyan-Dombivli Branch,Kalyan-Dombivli,Manipur,BANK0000020,Semi-Urban,1997-11-27,2026-07-30 19:15:47.389993+00:00,branches.csv
+BR001,Phusro Branch,Phusro,Haryana,BANK0000001,Metro,2003-08-15,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR002,Imphal Branch,Imphal,Andhra Pradesh,BANK0000002,Semi-Urban,2017-07-29,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR003,Thiruvananthapuram Branch,Thiruvananthapuram,Telangana,BANK0000003,Semi-Urban,2006-07-03,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR004,Hosur Branch,Hosur,Tripura,BANK0000004,Semi-Urban,1998-04-26,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR005,Anand Branch,Anand,Arunachal Pradesh,BANK0000005,Semi-Urban,2012-08-12,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR006,Srinagar Branch,Srinagar,Nagaland,BANK0000006,Semi-Urban,2025-05-16,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR007,Agra Branch,Agra,Himachal Pradesh,BANK0000007,Urban,2014-10-31,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR008,Madanapalle Branch,Madanapalle,Jharkhand,BANK0000008,Rural,2017-08-28,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR009,Vadodara Branch,Vadodara,Karnataka,BANK0000009,Metro,2000-11-20,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR010,Bharatpur Branch,Bharatpur,Kerala,BANK0000010,Semi-Urban,2023-09-18,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR011,Erode Branch,Erode,Mizoram,BANK0000011,Semi-Urban,2021-05-14,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR012,Coimbatore Branch,Coimbatore,Maharashtra,BANK0000012,Semi-Urban,2006-08-28,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR013,Saharanpur Branch,Saharanpur,Chhattisgarh,BANK0000013,Semi-Urban,2020-08-28,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR014,Malda Branch,Malda,Chhattisgarh,BANK0000014,Semi-Urban,2022-08-13,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR015,Meerut Branch,Meerut,Arunachal Pradesh,BANK0000015,Semi-Urban,2020-10-05,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR016,Bikaner Branch,Bikaner,Uttar Pradesh,BANK0000016,Semi-Urban,2007-06-07,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR017,Haridwar Branch,Haridwar,Sikkim,BANK0000017,Semi-Urban,2002-03-04,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR018,Uluberia Branch,Uluberia,Tripura,BANK0000018,Rural,1998-05-14,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR019,Thane Branch,Thane,Nagaland,BANK0000019,Semi-Urban,2011-06-27,2026-08-01 19:58:17.723533+00:00,branches.csv
+BR020,Kalyan-Dombivli Branch,Kalyan-Dombivli,Manipur,BANK0000020,Semi-Urban,1997-11-27,2026-08-01 19:58:17.723533+00:00,branches.csv

@@ -134,7 +134,7 @@ Transactions:
         # Valid Phone Number (10 digits)
         df["phone_number"] = df["phone_number"].astype(str)
 
-        phone_pattern = r"^\d{10}$"
+        phone_pattern = r"^\d{10,12}$"
 
         df = df[
             df["phone_number"].str.match(
